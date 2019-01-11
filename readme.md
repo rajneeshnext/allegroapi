@@ -1,10 +1,4 @@
 # MyPackage
-
-[![Latest Version on Packagist][ico-version]][link-packagist]
-[![Total Downloads][ico-downloads]][link-downloads]
-[![Build Status][ico-travis]][link-travis]
-[![StyleCI][ico-styleci]][link-styleci]
-
 First craete new folder for laravel root directory folder name "packages" after 
 
 ## Installation

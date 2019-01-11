@@ -1,0 +1,27 @@
+{
+    "name": "smallbs/allegro",
+    "description": "allegro package",
+    "type": "library",
+    "authors": [
+        {
+            "name": "sanjeev",
+            "email": "sanjeev05boldertech@gmail.com"
+        }
+    ],
+	"minimum-stability": "dev",
+    "require": {
+        "laravelcollective/html": "^5.5"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Smallbs\\Allegro\\AllegroServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "smallbs\\allegro\\": "src/"
+        }
+    }
+}

@@ -13,7 +13,7 @@ then delete folder allegroapi
 
 ## Usage
 
-## package service provider
+## package service provider add this line form config/app.php file in your laravel root directory.
 ``` bash
 Smallbs\Allegro\AllegroServiceProvider::class, 
 ```

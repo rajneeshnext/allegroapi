@@ -14,6 +14,8 @@ Via Composer
 ``` bash
 $ git clone git@github.com:rajneeshnext/allegroapi.git
 ```
+move all file in allegroapi folder to package root directory
+then delete folder allegroapi
 
 ## Usage
 
@@ -34,4 +36,8 @@ Smallbs\Allegro\AllegroServiceProvider::class,
             "Smallbs\\Allegro\\": "packages/Smallbs/Allegro/src/"
        }
    }
+```
+## use update composer
+``` bash
+ composer update
 ```
